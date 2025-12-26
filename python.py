@@ -1,13 +1,20 @@
 def main():
-    try:
-        sum1 = int(input("Enter first number: "))
-    except:
-        print("Enter a number!")
+    while True:
+        try:
+            sum1 = int(input("Enter first number: "))
+        except:
+            print("Enter a number!")
+        else:
+            break
 
-    try:
-        sum2 = int(input("Enter second number: "))
-    except:
-        print("Enter a number!")
+    while True:
+        try:
+            sum2 = int(input("Enter second number: "))
+        except:
+            print("Enter a number!")
+        else:
+            break
+
     choice(sum1,sum2)
 
 def choice(sum1,sum2):
